@@ -1,0 +1,96 @@
+
+/*ひな形*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    width: 100%;
+    margin: auto;
+    background-color: #f9f9f9;
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+/*リンクを作ろう*/
+
+#key-block a{
+ font-size: 20px;
+color: #ff4c4c;
+background: #f9f9f9;
+border: 1px solid #ff4c4c;
+padding: 10px;
+text-decoration: none;
+border-radius: 8px;
+transition: 1s;
+}
+#key-block a:hover{
+background: #ff4c4c;
+color: #f9f9f9;
+}
+
+/*画像・見出し・パラグラフをつくろう*/
+#key-block img{
+   float: left;
+   margin-right: 10px;
+}
+#key-block h1{
+    float: left;
+    font-size: 15px;
+    width: 350px;
+    margin-bottom: 5px;
+}
+#key-block p{
+    float: left;
+    font-size: 12px;
+    width: 350px;
+    margin-bottom: 5px;
+}  
+/*メニューを作ろう*/
+
+nav{
+    overflow: hidden;
+    background: #ff4c4c;
+    margin-bottom: 30px;
+}
+nav li{
+    float:left;
+    list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+  border: none;
+  color: #fff;
+  background: transparent;
+  display: block;
+  border-radius; 0;
+  padding: 8px;
+  transition: 0.5s;
+}
+
+nav a:hover{
+  background: #fff;
+  color: #ff4c4c;
+}
+/*レイアウトを作ろう*/
+.main{
+    width: 600px;
+    overflow: hidden;
+    float: left;
+    background: #FFF;
+    padding: 20px;
+}
+.col-6 {
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 20px;  
+}
+.col-3 {
+    width: 290px;
+    padding: 5px;
+    float: left;
+    overflow: ;hidden;
+    
+}
